@@ -5,29 +5,8 @@
   --bgSearch: #3a3b3c;
   --colorPrime: #afb3b8;
 }
+
 body {
   background-color: var(--bgPrime);
-}
-
-.App {
-  width: 400px;
-  height: 400px;
-  background-color: var(--bgSec);
   color: var(--colorPrime);
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  border-radius: 13px;
-}
-
-.d2 {
-  background-color: var(--bgSearch);
-  width: 300px;
-  height: 80px;
-  border-radius: 99px;
-}
-
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
 }
