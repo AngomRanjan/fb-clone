@@ -1,10 +1,30 @@
+:root {
+  --bgSec: #242526;
+  --bgSec1: #0076e2;
+  --bgPrime: #18191a;
+  --bgSearch: #3a3b3c;
+  --colorPrime: #afb3b8;
+}
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  background-color: var(--bgPrime);
+}
+
+.App {
+  width: 400px;
+  height: 400px;
+  background-color: var(--bgSec);
+  color: var(--colorPrime);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 13px;
+}
+
+.d2 {
+  background-color: var(--bgSearch);
+  width: 300px;
+  height: 80px;
+  border-radius: 99px;
 }
 
 code {
