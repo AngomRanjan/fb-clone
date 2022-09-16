@@ -1,8 +1,15 @@
 import React from "react";
 import "./Login.css";
 import { Button } from "@mui/material";
+import { setUserAction } from "../../redux/authReducer";
+import { useDispatch } from 'react-redux';
 
 function Login() {
+  const dispatch = useDispatch();
+    const signIn = () => {
+      dispatch(setUserAction());
+    }
+
   return (
     <div className="login">
       <div className="login__logo">
@@ -15,7 +22,7 @@ function Login() {
           alt=""
         />
       </div>
-      <Button type="submit" onClick={'signIn'}>
+      <Button type="submit" onClick={signIn}>
         Sign In With Google
       </Button>
     </div>
