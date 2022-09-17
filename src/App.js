@@ -12,7 +12,7 @@ function App() {
       ) : (
         <>
           <div className="app__body">
-            hi welcome
+            Welcome
           </div>
         </>
       )}

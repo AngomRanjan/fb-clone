@@ -13,7 +13,7 @@ export const setUserAction = () => async (dispatch) => {
   await signInWithPopup(auth, authProvider)
     .then(result => {
       dispatch(setUser(result.user))
-    }).catch(error => alert("error.message"));
+    }).catch(error => alert(error.message));
 }
 
 
