@@ -38,7 +38,7 @@ const MessageSender = () => {
           </button>
         </form>
       </div>
-
+      <hr className='messageSender__divider'/>
       <div className="messageSender__bottom">
         <div className="messageSender__option">
           <VideocamIcon style={{ color: "#f3425f" }} />

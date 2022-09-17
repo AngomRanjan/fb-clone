@@ -10,7 +10,6 @@
 
 .messageSender__top {
     display: flex;
-    border-bottom: 1px solid var(--bgSearch);
     padding-bottom: 15px;
     padding: 15px;
 }
@@ -41,6 +40,12 @@
 .messageSender__bottom {
     display: flex;
     justify-content: space-evenly;
+}
+
+.messageSender__divider {
+    width: 97%;
+    border-color: var(--bgSearch);
+    align-self: center;
 }
 
 .messageSender__option {
