@@ -10,8 +10,9 @@
 }
 
 .app__feed {
-  max-width: 650px;
+  max-width: 670px;
   justify-self: center;
+  padding-right: 20px;
 }
 
 .app__sidebar,
