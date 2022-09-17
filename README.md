@@ -1,70 +1,83 @@
-# Getting Started with Create React App
+[![](https://img.shields.io/badge/Micronaut-Angom%20Chittaranjan-blue)](https://github.com/AngomRanjan)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Stay Tune
 
-## Available Scripts
+> This is my first React Capstone Project. In the project, I build a tv show sites, which gives information about Shows telecast on TV Maze. I choose a dark color theme for this particular project. I have used a shade of black (#1b1b1b). I would like to thank  Nelson Sakwa on Behance for the original design idea.  This app was build using HTML, CSS, JavaScript, React and Redux.
 
-In the project directory, you can run:
+## Built With
 
-### `npm start`
+- HTML
+- CSS
+- Javascript
+- React
+- Redux
+- Material ui
+- Firebase' Firestore realtime DB
+- Firebase Google Authentication (FULL Login)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Prerequisites
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- Good knowledge on javascript objects
+- VSCode or other text editor installed. [Link to download VSCode](https://code.visualstudio.com/download)
+- Node package. [Link to download node](https://nodejs.org/en/download/)
+- Firebase Account
 
-### `npm test`
+## Getting started
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Go to the Folder where want to copy this repo and type the following cmds in you terminal:
 
-### `npm run build`
+- git clone git@github.com:AngomRanjan/fb-clone.git
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## To Install type the following command
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- npm install
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## To Run App type the following command in your terminal
 
-### `npm run eject`
+  - npm start
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+### To Run test cases type the following command
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+  - npm test
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## Live Demo
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+[Live Demo Link](https://fb-clone-angom.netlify.app)
 
-## Learn More
+## Authors
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+👤 Angom Chittaranjan
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+- GitHub: [@AngomRanjan](https://github.com/AngomRanjan)
+- Twitter: [@RanjanAngom](https://twitter.com/RanjanAngom)
+- LinkedIn: [angom-chittaranjan](https://linkedin.com/in/angom-chittaranjan)
 
-### Code Splitting
+## 🤝 Contributing
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+Contributions, issues, and feature requests are welcome!
 
-### Analyzing the Bundle Size
+Feel free to check the [issues page](https://github.com/AngomRanjan/fb-clone/issues).
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+## Show your support
 
-### Making a Progressive Web App
+Give a [⭐️](https://github.com/AngomRanjan/fb-clone/stargazers) if you like this project!
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+## :footprints: Track Me
 
-### Advanced Configuration
+<a href="https://twitter.com/RanjanAngom?ref_src=twsrc%5Etfw" class="twitter-follow-button" data-show-count="false">
+<img src="https://img.shields.io/badge/-@RanjanAngom-blue?style=flat&logo=twitter&logoColor=white">
+</a>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+<a class="github-button" href="https://github.com/AngomRanjan" aria-label="Follow @AngomRanjan on GitHub">
+ <img src="https://img.shields.io/badge/-@AngomRanjan-green?style=flat&logo=github&logoColor=white">
+</a>
 
-### Deployment
+## Acknowledgments
+- Microverse Team
+- My Family
+- TV Maze API service for giving access to their API.
+- All my fellow micronauts.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+## 📝 License
 
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+This project is [MIT](LICENSE) licensed.
