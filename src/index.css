@@ -11,6 +11,7 @@
   --fwNormal: 400;
   --fwBold: 600;
   --fwLight: 300;
+  --boxShadow: 0 5px 17px -7px rgba(255,255,255,0.80);
 }
 
 * {
