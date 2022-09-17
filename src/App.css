@@ -1,0 +1,33 @@
+.app {
+  background-color: var(--bgPrime);
+  height: 100vh;
+}
+
+.app__body {
+  display: flex;
+  justify-content: left;
+}
+
+.app__feeds {
+  max-width: 650px;
+}
+
+@media only screen and (max-width: 1200px) {
+  .app__body {
+    justify-content: flex-end;
+  }
+
+  .app__sidebar {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 960px) {
+  .app__body {
+    justify-content: center;
+  }
+
+  .app__widgets {
+    display: none;
+  }
+}

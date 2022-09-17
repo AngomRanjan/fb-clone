@@ -3,6 +3,8 @@ import Login from "./components/login/Login";
 import { useSelector } from 'react-redux';
 import Header from "./components/header/Header";
 import Sidebar from "./components/sidebar/Sidebar";
+import Feed from "./components/feed/Feed";
+import "./App.css";
 
 function App() {
   const { user } = useSelector((state) => state.user);
@@ -18,7 +20,7 @@ function App() {
             {/*Sidebar*/}
             <div className="app__sidebar"><Sidebar /></div>
             {/*feed*/}
-            {/* <div className="app__feed"><Feed /></div> */}
+            <div className="app__feed"><Feed /></div>
             {/*widgets*/}
             {/* <div className="app__widgets"><Widgets /></div> */}
           </div>
