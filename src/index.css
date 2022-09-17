@@ -4,9 +4,25 @@
   --bgPrime: #18191a;
   --bgSearch: #3a3b3c;
   --colorPrime: #afb3b8;
+  --ff:  Helvetica, Arial, sans-serif;
+  --fsNormal: 0.9375em;
+  --fsSmall: 0.8125em;
+  --fsLarge: 1.257em;
+  --fwNormal: 400;
+  --fwBold: 600;
+  --fwLight: 300;
+  --boxShadow: 0 5px 10px -7px rgba(255,255,255,0.75);
+}
+
+* {
+  margin: 0;
+  padding: 0;
 }
 
 body {
   background-color: var(--bgPrime);
   color: var(--colorPrime);
+  font-family: var(--ff);
+  font-size: 1em;
+  font-weight: var(--fwNormal);
 }

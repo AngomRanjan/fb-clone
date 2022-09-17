@@ -1,0 +1,50 @@
+.app {
+  background-color: var(--bgPrime);
+  height: 100vh;
+}
+
+.app__body {
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+
+.app__feed {
+  max-width: 670px;
+  justify-self: center;
+  padding-right: 20px;
+}
+
+.app__sidebar,
+.app__widgets {
+  position: fixed;
+  width: 320px;
+}
+
+.app__sidebar {
+  left: 0;
+}
+
+.app__widgets {
+  right: 0;
+}
+
+@media only screen and (max-width: 1200px) {
+  .app__body {
+    justify-content: flex-end;
+  }
+
+  .app__sidebar {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 960px) {
+  .app__body {
+    justify-content: center;
+  }
+
+  .app__widgets {
+    display: none;
+  }
+}
