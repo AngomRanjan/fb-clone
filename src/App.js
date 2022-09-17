@@ -1,6 +1,7 @@
 import React from "react";
 import Login from "./components/login/Login";
 import { useSelector } from 'react-redux';
+import Header from "./components/header/Header";
 
 function App() {
   const { user } = useSelector((state) => state.user);
@@ -12,6 +13,7 @@ function App() {
       ) : (
         <>
           <div className="app__body">
+          <Header />
             Welcome
           </div>
         </>
