@@ -11,12 +11,12 @@ const Storyboard = () => {
       />
       <Story
       image="https://images.freeimages.com/images/previews/3c2/little-roberto-and-vitoria-1177528.jpg"
-      profileSrc="https://avatars.githubusercontent.com/u/99433451?v=4"
+      profileSrc="https://avatars.githubusercontent.com/u/99269832?v=4"
       title="Mendy"
       />
       <Story
       image="https://www.shutterbug.com/images/styles/600_wide/public/How-to-Shoot-Concert-Photography-Pro-Tips_0.jpg"
-      profileSrc="https://avatars.githubusercontent.com/u/99433451?v=4"
+      profileSrc="https://avatars.githubusercontent.com/u/99729850?v=4"
       title="Alphonso"
       />
       {/* <Story
@@ -26,7 +26,7 @@ const Storyboard = () => {
       /> */}
       <Story
       image="http://im.rediff.com/movies/2013/sep/02pic1.jpg"
-      profileSrc="https://avatars.githubusercontent.com/u/99433451?v=4"
+      profileSrc="https://avatars.githubusercontent.com/u/66992901?v=4"
       title="Achilles"
       />
     </div>
