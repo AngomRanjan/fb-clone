@@ -2,6 +2,7 @@ import React from "react";
 import Login from "./components/login/Login";
 import { useSelector } from 'react-redux';
 import Header from "./components/header/Header";
+import Sidebar from "./components/sidebar/Sidebar";
 
 function App() {
   const { user } = useSelector((state) => state.user);
@@ -12,9 +13,14 @@ function App() {
         <Login />
       ) : (
         <>
-          <div className="app__body">
           <Header />
-            Welcome
+          <div className="app__body">
+            {/*Sidebar*/}
+            <div className="app__sidebar"><Sidebar /></div>
+            {/*feed*/}
+            {/* <div className="app__feed"><Feed /></div> */}
+            {/*widgets*/}
+            {/* <div className="app__widgets"><Widgets /></div> */}
           </div>
         </>
       )}
