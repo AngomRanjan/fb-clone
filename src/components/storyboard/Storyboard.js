@@ -19,11 +19,11 @@ const Storyboard = () => {
       profileSrc="https://avatars.githubusercontent.com/u/99729850?v=4"
       title="Alphonso"
       />
-      {/* <Story
+      <Story
       image="https://miro.medium.com/max/700/0*XH3rLskyOsCqVV-j.jpg"
       profileSrc="https://avatars.githubusercontent.com/u/99433451?v=4"
       title="Crypton"
-      /> */}
+      />
       <Story
       image="http://im.rediff.com/movies/2013/sep/02pic1.jpg"
       profileSrc="https://avatars.githubusercontent.com/u/66992901?v=4"

@@ -5,6 +5,7 @@ import VideocamIcon from '@mui/icons-material/Videocam';
 import PhotoLibraryIcon from "@mui/icons-material/PhotoLibrary";
 import InsertEmoticonIcon from "@mui/icons-material/InsertEmoticon";
 import { useSelector } from "react-redux";
+import { addPosts } from '../../firebase/firebase';
 
 const MessageSender = () => {
   const { user } = useSelector((state) => state.user);
@@ -13,6 +14,14 @@ const MessageSender = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
+    
+    addPosts({
+      message: input,
+      profilePic: user.photoURL,
+      username: user.displayName,
+      image: imageUrl,
+    });
+
     setInput("");
     setImageUrl("");
   };

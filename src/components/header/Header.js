@@ -13,7 +13,6 @@ import { Avatar, IconButton } from "@mui/material";
 import { useSelector } from "react-redux";
 
 const Header = () => {
-  // const [{ user }, dispatch] = useStateValue();
   const { user } = useSelector((state) => state.user);
   return (
     <div className="header">

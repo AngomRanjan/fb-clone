@@ -4,6 +4,7 @@ import { useSelector } from 'react-redux';
 import Header from "./components/header/Header";
 import Sidebar from "./components/sidebar/Sidebar";
 import Feed from "./components/feed/Feed";
+import Widgets from "./components/widget/Widgets";
 import "./App.css";
 
 function App() {
@@ -22,7 +23,7 @@ function App() {
             {/*feed*/}
             <div className="app__feed"><Feed /></div>
             {/*widgets*/}
-            {/* <div className="app__widgets"><Widgets /></div> */}
+            <div className="app__widgets"><Widgets /></div>
           </div>
         </>
       )}
