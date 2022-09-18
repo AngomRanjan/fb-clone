@@ -1,8 +1,8 @@
 [![](https://img.shields.io/badge/Micronaut-Angom%20Chittaranjan-blue)](https://github.com/AngomRanjan)
 
-# Stay Tune
+# FB Clone
 
-> This is my first React Capstone Project. In the project, I build a tv show sites, which gives information about Shows telecast on TV Maze. I choose a dark color theme for this particular project. I have used a shade of black (#1b1b1b). I would like to thank  Nelson Sakwa on Behance for the original design idea.  This app was build using HTML, CSS, JavaScript, React and Redux.
+> FB Clone is a simple basic clone of Facebook. It uses Google Signin for authenticatication. Currently it is under construction and feature only one functionality, Posting.
 
 ## Built With
 
@@ -12,8 +12,7 @@
 - React
 - Redux
 - Material ui
-- Firebase' Firestore realtime DB
-- Firebase Google Authentication (FULL Login)
+- Firebase v9
 
 ## Prerequisites
 
@@ -35,6 +34,12 @@ Go to the Folder where want to copy this repo and type the following cmds in you
 ## To Run App type the following command in your terminal
 
   - npm start
+
+## Firebase Config
+  - goto src/firebase folder   
+  - Open firebaseConfigTemplate.js and replace firebaseConfig details with your own firebaseConfig
+  - Rename firebaseConfigTemplate.js to firebaseConfig.js
+
 
 ### To Run test cases type the following command
 
@@ -75,7 +80,7 @@ Give a [⭐️](https://github.com/AngomRanjan/fb-clone/stargazers) if you like 
 ## Acknowledgments
 - Microverse Team
 - My Family
-- TV Maze API service for giving access to their API.
+- Sonny for inspiration, idea and guidance.
 - All my fellow micronauts.
 
 ## 📝 License
