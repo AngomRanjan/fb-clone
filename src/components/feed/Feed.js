@@ -3,8 +3,8 @@ import "./Feed.css";
 import Storyboard from "../storyboard/Storyboard";
 import MessageSender from "../messageSender/MessageSender";
 import Post from "../post/Post";
-import { collection, onSnapshot } from "firebase/firestore"
-import { db, getPostsQuery } from "../../firebase/firebase";
+import { onSnapshot } from "firebase/firestore"
+import { getPostsQuery } from "../../firebase/firebase";
 
 const Feed = () => {
   const [posts, setPosts] = useState([]);

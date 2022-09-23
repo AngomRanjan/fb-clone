@@ -16,7 +16,7 @@ function App() {
         <Login />
       ) : (
         <>
-          <Header />
+          <div className="app__header"><Header /></div>
           <div className="app__body">
             {/*Sidebar*/}
             <div className="app__sidebar"><Sidebar /></div>
