@@ -1,18 +1,14 @@
-# Getting Started with Create React App
 
-<<<<<<< HEAD
+[![](https://img.shields.io/badge/Micronaut-Angom%20Chittaranjan-blue)](https://github.com/AngomRanjan)
+
 # FB Clone
 
 > FB Clone is a simple basic clone of Facebook. It uses Google Signin for authenticatication. Currently it is under construction and feature only one functionality, Posting.
-=======
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
->>>>>>> parent of d09500e (Add Readme)
 
 In the project directory, you can run:
 
-<<<<<<< HEAD
 - HTML
 - CSS
 - Javascript
@@ -20,85 +16,70 @@ In the project directory, you can run:
 - Redux
 - Material ui
 - Firebase v9
-=======
-### `npm start`
->>>>>>> parent of d09500e (Add Readme)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Prerequisites
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- Good knowledge on javascript objects
+- VSCode or other text editor installed. [Link to download VSCode](https://code.visualstudio.com/download)
+- Node package. [Link to download node](https://nodejs.org/en/download/)
 
-### `npm test`
+## Getting started
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Go to the Folder where want to copy this repo and type the following cmds in you terminal:
 
-### `npm run build`
+- git clone https://github.com/AngomRanjan/fb-clone.git
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## To Install type the following command
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- npm install
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## To Run App type the following command in your terminal
 
-### `npm run eject`
-
-<<<<<<< HEAD
-## Firebase Config
-  - goto src/firebase folder   
-  - Open firebaseConfigTemplate.js and replace firebaseConfig details with your own firebaseConfig
-  - Rename firebaseConfigTemplate.js to firebaseConfig.js
-
+  - npm start
 
 ### To Run test cases type the following command
-=======
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
->>>>>>> parent of d09500e (Add Readme)
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+  - npm test
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## Live Demo
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+[Live Demo Link](https://facebook-clone-993ad.web.app/)
 
-## Learn More
+## Authors
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+👤 Angom Chittaranjan
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+- GitHub: [@AngomRanjan](https://github.com/AngomRanjan)
+- Twitter: [@RanjanAngom](https://twitter.com/RanjanAngom)
+- LinkedIn: [angom-chittaranjan](https://linkedin.com/in/angom-chittaranjan)
 
-### Code Splitting
+## 🤝 Contributing
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+Contributions, issues, and feature requests are welcome!
 
-### Analyzing the Bundle Size
+Feel free to check the [issues page](https://github.com/AngomRanjan/fb-clone/issues).
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+## Show your support
 
-### Making a Progressive Web App
+Give a [⭐️](https://github.com/AngomRanjan/fb-clone/stargazers) if you like this project!
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+## :footprints: Track Me
 
-### Advanced Configuration
+<a href="https://twitter.com/RanjanAngom?ref_src=twsrc%5Etfw" class="twitter-follow-button" data-show-count="false">
+<img src="https://img.shields.io/badge/-@RanjanAngom-blue?style=flat&logo=twitter&logoColor=white">
+</a>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+<a class="github-button" href="https://github.com/AngomRanjan" aria-label="Follow @AngomRanjan on GitHub">
+ <img src="https://img.shields.io/badge/-@AngomRanjan-green?style=flat&logo=github&logoColor=white">
+</a>
 
-<<<<<<< HEAD
 ## Acknowledgments
 - Microverse Team
 - My Family
-- Sonny for inspiration, idea and guidance.
+- Nelson Sakwa on Behance for providing the original design idea.
+- TV Maze API service for giving access to their API.
 - All my fellow micronauts.
-=======
-### Deployment
->>>>>>> parent of d09500e (Add Readme)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+## 📝 License
 
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+This project is [MIT](LICENSE) licensed.
