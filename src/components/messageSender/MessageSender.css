@@ -6,6 +6,12 @@
     border-radius: 15px;
     border: 1px solid rgb(29, 29, 29);
     width: 100%;
+    flex: 1;
+}
+
+.messageSender__top,
+.messageSender__bottom {
+    width: 98%;
 }
 
 .messageSender__top {
@@ -34,7 +40,11 @@
 }
 
 .messageSender__input {
-    flex: 1;
+    width: 55%;
+}
+
+.messageSender__inputImage {
+    width: 43%;
 }
 
 .messageSender__bottom {
@@ -49,11 +59,12 @@
 }
 
 .messageSender__option {
-    padding: 20px;
+    padding: 20px 5px;
     display: flex;
     align-items: center;
     color: gray;
     margin: 5px;
+    width: 30%;
 }
 
 .messageSender__option>h3 {

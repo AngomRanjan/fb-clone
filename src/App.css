@@ -3,33 +3,21 @@
   height: 100vh;
 }
 
+.app__header {
+  width: 100%;
+}
+
 .app__body {
-  position: relative;
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
 }
 
 .app__feed {
-  max-width: 670px;
-  justify-self: center;
-  padding-right: 20px;
+  max-width: 550px;
+  width: 90%;
 }
 
-.app__sidebar,
-.app__widgets {
-  position: fixed;
-  width: 320px;
-}
-
-.app__sidebar {
-  left: 0;
-}
-
-.app__widgets {
-  right: 0;
-}
-
-@media only screen and (max-width: 1200px) {
+@media only screen and (max-width: 960px) {
   .app__body {
     justify-content: flex-end;
   }
@@ -39,7 +27,7 @@
   }
 }
 
-@media only screen and (max-width: 960px) {
+@media only screen and (max-width: 768px) {
   .app__body {
     justify-content: center;
   }

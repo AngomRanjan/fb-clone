@@ -41,6 +41,7 @@ const MessageSender = () => {
             value={imageUrl}
             onChange={(e) => setImageUrl(e.target.value)}
             placeholder="Paste an image URL (optional)"
+            className="messageSender__inputImage"
           />
           <button onClick={handleSubmit} type="submit">
             Hidden submit
